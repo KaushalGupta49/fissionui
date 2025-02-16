@@ -19,6 +19,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "test": "tsc -b && vite build && chmod +x dist/fissionui.js",
     "prepublish": "npm run build"
   },
   "dependencies": {

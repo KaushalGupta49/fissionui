@@ -26,6 +26,7 @@ export default defineConfig({
         "node:fs",
         "node:path",
         "node:url",
+        "child_process",
       ],
       output: {
         globals: {
@@ -38,6 +39,7 @@ export default defineConfig({
           fs: "node:fs",
           "node:path": "node:path",
           "node:url": "node:url",
+          child_process: "child_process",
         },
       },
     },
