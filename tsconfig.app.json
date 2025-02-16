@@ -7,7 +7,7 @@
     "module": "NodeNext",
     "skipLibCheck": true,
     "paths": {
-      "fusionui": ["./lib/index.ts"]
+      "fissionui": ["./lib/index.ts"]
     },
 
     /* Bundler mode */

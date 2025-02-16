@@ -12,8 +12,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "lib/index.ts"),
-      name: "fusionui",
-      fileName: "fusionui",
+      name: "fissionui",
+      fileName: "fissionui",
     },
     rollupOptions: {
       external: [

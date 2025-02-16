@@ -5,15 +5,15 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/fusionui.umd.cjs",
-  "module": "./dist/fusionui.js",
+  "main": "./dist/fissionui.umd.cjs",
+  "module": "./dist/fissionui.js",
   "exports": {
     ".": {
-      "import": "./dist/fusionui.js",
-      "require": "./dist/fusionui.umd.cjs"
+      "import": "./dist/fissionui.js",
+      "require": "./dist/fissionui.umd.cjs"
     }
   },
-  "bin": "./dist/fusionui.js",
+  "bin": "./dist/fissionui.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
